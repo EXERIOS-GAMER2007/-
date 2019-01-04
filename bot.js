@@ -195,7 +195,7 @@ client.on("message", message => {
  if (message.content === ".help-admin") {
   var embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© LegendryBot :heart: جميع الحقوق محفوظة 2018 لــبوت')
+      .setFooter('VEKKX BOT :heart: جميع الحقوق محفوظة 2018 لــبوت')
       .setFooter('======================================================')
       .setFooter('اوامر الادمنيه')
 	  .addField('.bc', `لخاصية البرودكستات`)
@@ -214,7 +214,7 @@ client.on("message", message => {
           .addField('.c-channel', `لـصنع روم كتابي`)
           .addField('.c-voice', `لـصنع روم صوتي`)
           .addField('.report', `عشان تبلغ عن شخص`)
-      .setFooter('─════════════ {✯LegendryBot✯} ════════════─')
+      .setFooter('─════════════ {✯VEKKX BOT✯} ════════════─')
       .setFooter('انهيت الصيانة على البوت و بس')
   message.author.send({embed});
  }
@@ -225,7 +225,7 @@ client.on("message", message => {
  if (message.content === ".help-public") {
   var embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© LegendryBot :heart: جميع الحقوق محفوظة 2018 لــبوت')
+      .setFooter('VEKKX BOT :heart: جميع الحقوق محفوظة 2018 لــبوت')
            .setFooter('اوامر الاعضاء')
           .addField('.inv', `لاضافة البوت الى سيرفرك`)
 	  .addField('.roles', `لمعرفة الرتب الي في السيرفر`)
@@ -251,7 +251,7 @@ client.on("message", message => {
             .addField('.mcstats', `يعتيك معلومات عن السيرفر`)
             .addField('.tag', `يخلي الشي اللي تكتبو بـشكل حلو`)
             .addField('.count', `يقول لك كم واحد بالسيرفر`)
-      .setFooter('─════════════ {✯LegendryBot✯} ════════════─')
+      .setFooter('─════════════ {✯VEKKX BOT✯} ════════════─')
       .setFooter('انهيت الصيانة على البوت و بس')
   message.author.send({embed});
  }
@@ -263,7 +263,7 @@ client.on("message", message => {
  if (message.content === ".help-games") {
   var embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© LegendryBot جميع الحقوق محفوظة 2018 لــبوت')
+      .setFooter('VEKKX BOT جميع الحقوق محفوظة 2018 لــبوت')
       .setFooter('======================================================')
       .setFooter('الالعاب')
       .addField('.يعتيك معلومات', `هل تعلم`)
@@ -274,7 +274,7 @@ client.on("message", message => {
 	  .addField('.كت تويت', `لعبة كت تويت`)
 	  .addField('.لو خيروك', `لعبة لو خيروك`)
           .addField('.قرعة', `لاستعمال القرعة`)
-      .setFooter('─════════════ {✯LegendryBot✯} ════════════─')
+      .setFooter('─════════════ {✯VEKKX BOT✯} ════════════─')
   message.author.send({embed});
  }
 });
